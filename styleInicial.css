@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+body {
+    background-color: #273445;
+}
+
+h1 {
+    font-family: 'Rowdies', cursive;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 309px;
+}
+
+img {
+    margin-top: 10px;
+    margin-left: 678px;
+}
+
+.caixa {
+    width: 100px;
+    height: 25px;
+    background-color: #65758A;
+    margin-left: 915px;
+    margin-top: 20px;
+}
+
+.caixa p {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
