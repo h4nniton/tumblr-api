@@ -14,6 +14,7 @@ ul, ol, li {
 
 body {
     background-color: #273445ed;
+    overflow-x: hidden;
     
 }
 
@@ -25,9 +26,9 @@ h1 {
     margin-top: 15px;
 }
 
-img {
+.gif {
     margin-top: 10px;
-    margin-left: 678px;
+    margin-left: 670px;
 }
 
 .barra-pesquisa {
@@ -60,4 +61,37 @@ img {
     margin-left: 10px;
 }
 
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    cursor: pointer;
+}
 
+
+.card {
+    width: 301px;
+    height: 385px;
+    transition: all .5s;
+    background-color: white;
+    margin-left: 102px;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px #0005;
+    gap: 20px
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.gatitos {
+    width: 215px;
+    z-index: 10px;
+    margin-top: -98px;
+    margin-left: 22px;
+}
