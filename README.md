@@ -1,3 +1,3 @@
 # tumblr-api
 
-<img src="/img/capa">
+<img src="/img/capa.png">
