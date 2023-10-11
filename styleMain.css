@@ -14,7 +14,7 @@ ul, ol, li {
 
 body {
     background-color: #273445ed;
-    overflow-x: hidden;
+    overflow-y: hidden;
     
 }
 
@@ -31,7 +31,7 @@ h1 {
     margin-left: 670px;
 }
 
-.barra-pesquisa {
+/* .barra-pesquisa {
     width: 1127px;
     height: 26px;
     background-color: #5F6874;
@@ -40,11 +40,33 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #ffffff9d;
-}
+} */
 
+#divBusca{
+    background-color:#5F6874;
+    border-radius:2px;
+    width:1127px;
+    height: 26px;
+    margin-left: 380px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #eee6e6;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    width:1127px;
+    height: 26px;
+  }
+/* 
 .barra-pesquisa p {
     margin-left: 9px;
-}
+} */
 
 .fundo {
     width: 1790px;
