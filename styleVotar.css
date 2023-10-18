@@ -54,7 +54,7 @@ h1 {
 }
 
 
-.card1 {
+.card {
     width: 301px;
     height: 385px;
     font-size: 35px;
@@ -64,7 +64,7 @@ h1 {
     font-weight: bold;
     transition: all .5s;
     background-image: url(./IMG/votar.jpg);
-    margin-left: 540px;
+    margin-left: 740px;
     margin-top: 150px;
     display: flex;
     flex-direction: row;
@@ -75,40 +75,11 @@ h1 {
     gap: 20px
 }
 
-.card1 img {
+.card img {
     max-width: 301px;
 
 }
-.card1:hover {
-    transform: scale(1.05);
-}
-
-.card2 {
-    width: 301px;
-    height: 385px;
-    font-size: 35px;
-    text-align: center;
-    color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    transition: all .5s;
-    background-image: url(./IMG/racas.jpg);
-    margin-left: 980px;
-    margin-top: -400px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    box-shadow: 0px 2px 4px #0005;
-    gap: 20px
-}
-
-.card2 img {
-    max-width: 301px;
-
-}
-.card2:hover {
+.card:hover {
     transform: scale(1.05);
 }
 
@@ -117,4 +88,19 @@ h1 {
     z-index: 10px;
     margin-top: -98px;
     margin-left: 22px;
+}
+
+
+.sim {
+    width: 124px;
+    height: 27px;
+    margin-left: 725px;
+    margin-top: 80px;
+
+}
+
+.nao {
+    width: 124px;
+    height: 27px;
+    margin-left: 75px;
 }
